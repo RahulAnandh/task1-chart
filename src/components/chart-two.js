@@ -160,7 +160,9 @@ const ChartTwo= () => {
     label: {
       position: 'middle',
       content: (item) => {
-        return item.value.toFixed(2);
+        return (
+          (item.value * 100).toFixed(2) + " %"
+        )
       },
       style: {
         fill: '#fff',
