@@ -1,0 +1,13 @@
+.radio-button{
+ width: 50%;
+}
+.full-chart{
+  background-color: black;
+  color:white
+  
+}
+.radio-button-section{
+  display: flex;
+margin-bottom: 50px;
+padding-top: 50px;
+}
